@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite2">
+	<test name="Testparameter">
+		<parameter name="browser" value="chrome" />
+		<parameter name="uname" value="admin" />
+		<parameter name="pwd" value="Test@123" />
+		<classes>
+			<class name="TestNG.parameter1" />
+			<methods>
+				<exclude name="tcone" />
+				<exclude name="tctwo" />
+				<include name="tcthree" />
+			</methods>
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG.Actitimelogin"/>
+      <class name="TestNG.testmethodbeforegoogle"/>
+      <class name="TestNG.loginWithTestcasepriority"/>
+      <class name="TestNG.testNGAftermethodgoogle"/>
+      <class name="TestNG.loginwithtestcasedependsonmethods"/>
+      <class name="TestNG.testngsample1"/>
+      <class name="TestNG.testngsample2"/>
+      <class name="TestNG.testngtimeoutannotation"/>
+      <class name="TestNG.loginTestCasewithENABLE"/>
+      <class name="TestNG.loginTestCasewithdescription"/>
+      <class name="TestNG.loginwithtestannotattion"/>
+      <class name="TestNG.combineannotationused"/>
+      <class name="TestNG.AfterMETHODaftertest"/>
+      <class name="TestNG.assignment1loginActiTime"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
